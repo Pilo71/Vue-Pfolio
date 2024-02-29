@@ -558,7 +558,7 @@ footer {
 .cadre2 {
   position: fixed;
   background-color: aliceblue;
-  width: 250px;
+  width: 260px;
   
   font-family: ABeeZee;
   left: 650px;
@@ -576,4 +576,7 @@ footer {
 }
 .hover3:hover{
   width: 279px;
+}
+.marge3{
+  margin-bottom: -10px;
 }
