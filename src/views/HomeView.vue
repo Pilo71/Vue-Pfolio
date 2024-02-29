@@ -24,17 +24,18 @@
   <RouterView></RouterView>
   <section>
     <div class="flex1 ombre">
-      <div class="marges"> <img class="galerie0 pointeur hover3" v-on:click="toggleModale" src="../images/cv.jpg"
-          alt="cv">
-
-        <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale2" src="/src/images/001C.Charges.png"
+      <div class="marges"> <img class="galerie0 pointeur hover3" v-on:click="toggleModale"
+          src="../images/002 c.v en ligne.jpg" alt="cv">
+        <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale2" src="../images/001 c.charges.jpg"
           alt="cahier des charges">
+        <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale3" src="../images/003 D.S.jpg"
+          alt="Dynamisme d'un site communautaire">
       </div>
 
     </div>
 
-    <modale class="cadre2" v-bind:revele="revele" v-bind:toggleModale="toggleModale" v-bind:revele2="revele2"
-      v-bind:toggleModale2="toggleModale2"></modale>
+    <modale v-bind:revele="revele" v-bind:toggleModale="toggleModale" v-bind:revele2="revele2"
+      v-bind:toggleModale2="toggleModale2" v-bind:revele3="revele3" v-bind:toggleModale3="toggleModale3"></modale>
   </section>
   <section>
 
@@ -74,13 +75,14 @@
 <script>
 import Modale from "./modales.vue"
 import Modale2 from "./modales.vue"
-
+import Modale3 from "./modales.vue"
 export default {
   name: "home",
   data() {
     return {
       revele: false,
       revele2: false,
+      revele3: false,
       errors: [],
       form: {
         firstName: null,
@@ -92,6 +94,7 @@ export default {
   components: {
     'modale': Modale,
     'modale2': Modale2,
+    'modale3': Modale3
   },
   methods: {
     toggleModale: function () {
@@ -99,6 +102,9 @@ export default {
     },
     toggleModale2: function () {
       this.revele2 = !this.revele2
+    },
+    toggleModale3: function () {
+      this.revele3 = !this.revele3
     },
     sendData() {
       this.errors = [];

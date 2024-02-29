@@ -7,7 +7,7 @@
             </div>
             <h2>C.V en ligne</h2>
             <div>
-                <p>Date de création : 20/10/2023</p>
+                <p>Date de création : 15/06/2023</p>
             </div>
             <div>
                 <p>Technologies utilisées : HTML,CSS</p>
@@ -28,7 +28,7 @@
             </div>
             <h2>Cahier des charges</h2>
             <div>
-                <p>Date de création : 20/11/2023</p>
+                <p>Date de création : 23/07/2023</p>
             </div>
             <div>
                 <p>Technologies utilisées : Photoshop</p>
@@ -44,13 +44,36 @@
 
         </div>
     </div>
+    <div class=" modale " v-if="revele3">
+        <div class="overlay pointeur" v-on:click="toggleModale3"></div>
+        <div class="cadre2">
+            <div class="boutonModale pointeur" v-on:click="toggleModale3">
+                <h4>X</h4>
+            </div>
+            <h2 class="marge3">Dynamisme d'un site </h2>
+            <h2>communautaire</h2>
+            <div>
+                <p>Date de création : 20/08/2023</p>
+            </div>
+            <div>
+                <p>Technologies utilisées : HTML,CSS,J.S.</p>
+            </div>
+            <div>
+                <p>Liens : <a class="style" href="https://github.com/Pilo71/devoirdynamiercommentairesjs.git"
+                        target="_blank">
+                        Github<img class="taille" src="../images/github.png" alt=""></a>
+                </p>
+
+            </div>
+        </div>
+    </div>
 </template>
 <script>
 export default {
-    name: "modale ",
-    name: "modale2",
+    name: "modale",
 
-    props: ['revele', 'toggleModale', 'revele2', 'toggleModale2'],
+
+    props: ['revele', 'toggleModale', 'revele2', 'toggleModale2', 'revele3', 'toggleModale3'],
 
 
 
