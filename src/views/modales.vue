@@ -48,7 +48,7 @@
 <script>
 export default {
     name: "modale ",
-    name: "modale2",
+    
 
     props: ['revele', 'toggleModale', 'revele2', 'toggleModale2'],
 

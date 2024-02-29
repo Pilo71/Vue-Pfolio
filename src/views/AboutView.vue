@@ -6,10 +6,13 @@
     </div>
   </section>
   <section>
-    <div> <img class="galerie1 pointeur hover3" v-on:click="toggleModale" src="../images/cv.jpg" alt="cv"></div>
-
-    <img class="galerie1 pointeur marge hover3" v-on:click="toggleModale2" src="/src/images/001C.Charges.png"
+    <div>
+       <img class="galerie1 pointeur hover3" v-on:click="toggleModale" src="../images/002 c.v en ligne.jpg" alt="cv"></div>
+       <img class="galerie1 pointeur marge hover3" v-on:click="toggleModale2" src="../images/001 c.charges.jpg"
       alt="cahier des charges">
+      <img class="galerie1 pointeur marge hover3" v-on:click="toggleModale3" src="../images/003 D.S.jpg"
+      alt="Dynamisme d'un site communautaire">
+       
     <modale v-bind:revele="revele" v-bind:toggleModale="toggleModale" v-bind:revele2="revele2"
       v-bind:toggleModale2="toggleModale2"></modale>
   </section>

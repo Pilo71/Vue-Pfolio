@@ -24,11 +24,12 @@
   <RouterView></RouterView>
   <section>
     <div class="flex1 ombre">
-      <div class="marges"> <img class="galerie0 pointeur hover3" v-on:click="toggleModale" src="../images/cv.jpg"
+      <div class="marges"> <img class="galerie0 pointeur hover3" v-on:click="toggleModale" src="../images/002 c.v en ligne.jpg"
           alt="cv">
-
-        <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale2" src="/src/images/001C.Charges.png"
+     <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale2" src="../images/001 c.charges.jpg"
           alt="cahier des charges">
+          <img class="galerie0 pointeur marge hover3" v-on:click="toggleModale3" src="../images/003 D.S.jpg" 
+      alt="Dynamisme d'un site communautaire">
       </div>
 
     </div>
