@@ -15,8 +15,8 @@
 
   <section>
 
-    <RouterLink to="/about" class="flex3">
-      <h1 class=" left name hover">Projets</h1>
+    <RouterLink to="/about" class="flex3 decoration">
+      <h1 class=" left name hover ">Projets</h1>
       <h2 class="contact2">Explorez quelques exemples ! </h2>
     </RouterLink>
 
