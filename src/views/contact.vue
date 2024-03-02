@@ -12,9 +12,9 @@
           <input class="style" type="text" v-model="form.firstName" name="firstName" id="form.firstName" />
         </div>
         <div class="colonnes tipo4">
-          <label for="last-name">objet</label>
-          
-          <input class="style" type="text" v-model="form.objet" name="objet" id="form.objet"  />
+          <label for="objet-name">objet</label>
+
+          <input class="style" type="text" v-model="form.objet" name="objet" id="form.objet" />
         </div>
 
         <div class="colonnes tipo5">
@@ -29,6 +29,7 @@
     </div>
   </section>
 </template>
+
 <script>
 export default {
   name: "contact",
