@@ -1,5 +1,3 @@
-
-
 <template>
   <section>
     <h1>Cécile Pilorger</h1>
@@ -34,8 +32,7 @@
 
     </div>
 
-    <modale v-bind:revele="revele" v-bind:toggleModale="toggleModale" v-bind:revele2="revele2"
-      v-bind:toggleModale2="toggleModale2" v-bind:revele3="revele3" v-bind:toggleModale3="toggleModale3"></modale>
+
   </section>
   <section>
 
@@ -54,7 +51,7 @@
           <input class="style" type="text" v-model="form.firstName" name="firstName" id="form.firstName" />
         </div>
         <div class="colonnes tipo4">
-          <label for="last-name">objet</label>
+          <label for="objet-name">objet</label>
           <input class="style" type="text" v-model="form.objet" name="objet" id="form.objet" />
         </div>
 
@@ -71,7 +68,10 @@
       </form>
     </div>
   </section>
+  <modale v-bind:revele="revele" v-bind:toggleModale="toggleModale" v-bind:revele2="revele2"
+    v-bind:toggleModale2="toggleModale2" v-bind:revele3="revele3" v-bind:toggleModale3="toggleModale3"></modale>
 </template>
+
 <script>
 import Modale from "./modales.vue"
 import Modale2 from "./modales.vue"

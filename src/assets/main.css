@@ -62,11 +62,6 @@ header {
   width: 81px;
 }
 
-.color1 {
-  color: rgb(95, 95, 244);
-  font-family: "ABeeZee";
-}
-
 .name {
   color: white;
   font-family: "ABeeZee";
@@ -182,8 +177,9 @@ h3 {
 .portrait {
 
   margin-left: 173px;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
   flex-shrink: 0;
   border-radius: 250px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -191,7 +187,7 @@ h3 {
 
 .position {
   margin-left: 510px;
-  margin-top: -200px;
+  margin-top: -175px;
   width: 800px;
   color: #fff;
 
@@ -219,7 +215,6 @@ li {
   font-weight: 400;
   line-height: 30px;
   margin-left: 308px;
-
 
 }
 
@@ -360,10 +355,6 @@ footer {
   text-decoration: none;
 }
 
-.decoration:hover {
-  color: rgb(95, 95, 244);
-}
-
 .sombre {
   width: 50px
 }
@@ -375,8 +366,6 @@ footer {
 .erreur {
   margin-top: 100px;
   margin-left: 350px;
-
-
   transform: rotate(145.161deg);
   opacity: 0.6;
   width: 178px;
@@ -587,7 +576,7 @@ footer {
 }
 
 .hover3:hover {
-  width: 279px;
+  box-shadow: 8px 6px 6px rgb(30, 30, 31);
 }
 
 .marge3 {
