@@ -5,13 +5,13 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-
+    
     <RouterLink to="/">
-
-      <img class="logo logoHover" src="../src/images/marvinEssentiel 3.png" alt="logo" />
+    
+  <img class="logo logoHover" src="../src/images/marvinEssentiel.png" alt="logo" />
     </RouterLink>
-
     <nav>
+    
       <ul class="nav">
         <RouterLink to="/" class="decoration">
 
@@ -23,8 +23,10 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/contact" class="decoration">
           <li class="bouton name2  hover4">Contact</li>
         </RouterLink>
-      </ul>
+      </ul>     
     </nav>
+      
+    
 
   </header>
 

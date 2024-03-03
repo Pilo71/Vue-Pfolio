@@ -37,7 +37,7 @@
   <section>
 
 
-    <RouterLink to="/contact" class="flex3">
+    <RouterLink to="/contact" class="flex3 decoration">
       <h1 class="name hover ">Contact</h1>
       <h2 class="contact1">Remplissez notre formulaire afin d'établir un premier contact !</h2>
     </RouterLink>
